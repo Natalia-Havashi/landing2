@@ -2,7 +2,7 @@
     /* max-width: 152px;
     width: 100%; */
     width: auto;
-    display: block;
+    display: inline-block;
     text-align: center;
     font-weight: 700;
     line-height: 93.75%; /* 15/16 */
@@ -30,4 +30,14 @@
 
 .btn-submit {
     padding: 21px 50px;
+}
+
+.hero__btn-download{
+    display: inline-block;
+    font-weight: 700;
+    line-height: 93.75%; /* 15/16 */
+    padding: 17px 27px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 4px;
 }

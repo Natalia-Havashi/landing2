@@ -35,7 +35,7 @@ body {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 0px 168px 0px;
 }
 .header__nav {
 }
@@ -45,15 +45,133 @@ body {
   gap: 27px;
 }
 .header__nav-item {
-    font-weight: 700;
-    line-height: 93.75%; /* 15/16 */
+  font-weight: 700;
+  line-height: 93.75%; /* 15/16 */
+  cursor: pointer;
 }
 
 .header__nav-item:hover,
-.header__nav-item:focus{
-    color: #FE461C;
+.header__nav-item:focus {
+  color: #fe461c;
 }
-.main {
+
+/* HERO */
+
+.hero-section {
+  /* max-width: 1920px; */
+  background-color: #1f2235;
+
+}
+.hero {
+  display: flex;
+  padding: 0px 47px 24px 47px;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+}
+.hero__social-links {
+  display: flex;
+  flex-direction: column;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #24263b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.social-link:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.social-link__icon-in {
+  width: 22px;
+  height: 23px;
+}
+.social-link__icon {
+  width: 20px;
+  height: 15px;
+}
+
+.hero__small-circle {
+  position: absolute;
+  top: 0;
+  left: 149px;
+  max-width: 204px;
+  width: 100%;
+  height: auto;
+
+  img {
+    width: 100%;
+  }
+}
+.hero__content {
+  margin-left: 203px;
+}
+.hero__welcome-text {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 900;
+  line-height: 125%; /* 20/16 */
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+.hero__title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 112.5%; /* 72/64 */
+    margin-bottom: 31px;
+}
+.hero__profession {
+    color: #fe461c;
+}
+.hero__description {
+    font-family: "Public Sans",sans-serif;
+    font-weight: 500;
+    line-height: 187.5%; /* 30/16 */
+    margin-bottom: 36px;
+}
+.hero__content-btn {
+    display: flex;
+    gap: 23px;
+}
+.hero__big-circle {
+  display: flex;
+  position: relative;
+  max-width: 783px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  /* border: 2px solid wheat; */
+}
+.big-circle {
+  max-width: 634px;
+  width: 100%;
+  height: auto;
+}
+.hero__skill-icon {
+  max-width: 10%;
+  position: absolute;
+}
+.figma-icon {
+  top: 3.7%;
+  left: 4.7%;
+}
+.xd-icon {
+  bottom: 21%;
+  left: 0%;
+}
+
+.ps-icon {
+  top: 4%;
+  right: 0%;
+}
+
+.sketch-icon {
+  bottom: 21%;
+  right: 0%;
 }
 .footer {
   background-color: #24263b;
