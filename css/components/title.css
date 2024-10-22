@@ -1,0 +1,25 @@
+.box-title {
+  
+}
+.box-title__label {
+  /* max-width: 153px;
+  width: 100%; */
+  width: auto;
+  display: inline-block;
+  background-color: #24263b;
+  padding: 12px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 75%; /* 12/16 */
+  letter-spacing: 2px;
+}
+/* .box-title__label:not(:last-child){
+    margin-bottom: 19px;
+} */
+.box-title__title {
+  font-size: 36px;
+  line-height: 133.333333%; /* 48/36 */
+  color: black;
+  font-weight: 700;
+}

@@ -1,0 +1,33 @@
+.btn {
+    /* max-width: 152px;
+    width: 100%; */
+    width: auto;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 93.75%; /* 15/16 */
+    background-color: #FE461C;
+    border-radius: 4px;
+    
+}
+
+.btn-header {
+  padding: 17px 15px;  
+  margin-left: 51px;
+}
+
+.btn-hero{
+    padding: 18px 48px;
+}
+
+.btn-about{
+    padding: 20px 19px;
+}
+
+.btn-resume{
+    padding: 10px 19px;
+}
+
+.btn-submit {
+    padding: 21px 50px;
+}
