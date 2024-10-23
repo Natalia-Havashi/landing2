@@ -10,7 +10,10 @@
     border-radius: 4px;
     
 }
-
+.btn:hover,
+.btn:focus {
+    background-color: #D93D19;
+}
 .btn-header {
   padding: 17px 15px;  
   margin-left: 51px;
@@ -21,7 +24,8 @@
 }
 
 .btn-about{
-    padding: 20px 19px;
+    padding: 21px 19px;
+    
 }
 
 .btn-resume{
@@ -40,4 +44,10 @@
     text-align: center;
     border: 2px solid #fff;
     border-radius: 4px;
+}
+
+.hero__btn-download:hover,
+.hero__btn-download:focus{
+    background-color: #fff;
+    color: #FE461C;
 }
