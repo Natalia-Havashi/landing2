@@ -284,7 +284,7 @@ body {
   padding-top: 12rem;
   padding-bottom: 11.9rem;
 }
-.box-title {
+.portfolio__title {
   margin-bottom: 5.4rem;
   gap: 1.7rem;
 }
@@ -363,6 +363,60 @@ body {
   font-weight: 400;
   line-height: 15px;
 }
+
+
+/* SECTION WHY CHOOSE UP */
+
+.section-why-choose-us {
+  background-color: #24263b;
+  padding: 12rem 0;
+}
+.why-choose-us {
+}
+
+.why-choose-us__title{
+  margin-bottom: 5.5rem;
+  gap: 1.7rem;
+}
+.why-choose-us__carts {
+  display: flex;
+  gap: 3.1rem;
+}
+.why-choose-us__cart {
+  background-color: #1f2235;
+  padding: 4.1rem 3.9rem 4.1rem 2.5rem;
+  border-radius: 0.4rem;
+}
+.why-choose-us__cart-icon {
+  margin-bottom: 2.6rem;
+}
+.why-choose-us__cart-title {
+  margin-bottom: 2.7rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 125%; /* 25/20 */
+}
+.why-choose-us__cart-description {
+  margin-bottom: 3.7rem;
+  font-size: 1.6rem;
+  font-family: "Public Sans",sans-serif;
+  font-weight: 300;
+  line-height: 150%; /* 24/16 */
+}
+.why-choose-us__cart-arrow {
+  width: 4.5rem;
+  height: 4.5rem;
+  text-align: center;
+  justify-content: center;
+  background-color: #24263B;
+  border-radius: 50%;
+}
+
+.why-choose-us__cart-arrow:hover,
+.why-choose-us__cart-arrow:focus{
+  background-color: #FE461C;
+}
+
 .footer {
   background-color: #24263b;
 }
