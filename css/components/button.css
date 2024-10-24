@@ -1,6 +1,4 @@
 .btn {
-    /* max-width: 152px;
-    width: 100%; */
     width: auto;
     display: inline-block;
     text-align: center;
@@ -24,7 +22,7 @@
 }
 
 .btn-about{
-    padding: 21px 19px;
+    padding: 20px 27px;
     
 }
 
