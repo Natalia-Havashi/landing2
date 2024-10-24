@@ -3,6 +3,7 @@
     display: inline-block;
     text-align: center;
     font-weight: 700;
+    font-size: 1.6rem;
     line-height: 93.75%; /* 15/16 */
     background-color: #FE461C;
     border-radius: 4px;
@@ -36,9 +37,10 @@
 
 .hero__btn-download{
     display: inline-block;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 93.75%; /* 15/16 */
-    padding: 17px 27px;
+    padding: 1.7rem 2.7rem;
     text-align: center;
     border: 2px solid #fff;
     border-radius: 4px;

@@ -49,6 +49,7 @@ body {
   gap: 2.7rem;
 }
 .header__nav-item {
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 93.75%; /* 15/16 */
   cursor: pointer;
@@ -116,6 +117,7 @@ body {
 }
 .hero__welcome-text {
   font-family: "Public Sans", sans-serif;
+  font-size: 1.6rem;
   font-weight: 900;
   line-height: 125%; /* 20/16 */
   letter-spacing: 2px;
@@ -132,6 +134,7 @@ body {
 }
 .hero__description {
   font-family: "Public Sans", sans-serif;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 187.5%; /* 30/16 */
   margin-bottom: 3.6rem;
@@ -207,6 +210,7 @@ body {
 .about-me__label {
   display: inline-block;
   margin-bottom: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 75%; /* 12/16 */
   letter-spacing: 2px;
@@ -223,6 +227,7 @@ body {
 }
 .about-me__description {
   font-family: "Public Sans", sans-serif;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 162.5%; /* 26/16 */
   margin-bottom: 2rem;
@@ -239,6 +244,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
+  font-size: 1.6rem;
 }
 .about-me__details-item {
   display: grid;
@@ -266,6 +272,97 @@ body {
 .about-me__details-link {
 }
 
+/* SECTION PORTFOLIO */
+
+.section-portfolio {
+  background-color: #1f2235;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12rem;
+  padding-bottom: 11.9rem;
+}
+.box-title {
+  margin-bottom: 5.4rem;
+  gap: 1.7rem;
+}
+.portfolio__categories {
+  margin-bottom: 3.6rem;
+  /* max-width: 476px; */
+}
+.portfolio__categories-list {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  
+}
+.portfolio__categories-item {
+  font-size: 1.6rem;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.portfolio__gallery {
+  grid-column: full-start / full-end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(260px, auto);
+  gap: 2.4rem;
+}
+.portfolio__gallery-item {
+}
+.item-1 {
+  grid-row: span 1;
+  height: 260px;
+}
+.item-2 {
+  position: relative;
+  grid-row: span 2;
+  height: 544px;
+}
+.item-3 {
+  grid-row: span 1;
+  height: 260px;
+}
+.item-4 {
+  grid-row: span 2;
+  height: 544px;
+}
+.item-5 {
+  grid-row: span 2;
+  height: 544px;
+}
+.item-6 {
+  grid-row: span 1;
+  height: 260px;
+}
+
+.portfolio__gallery-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item-2__text {
+  position: absolute;
+  bottom: 28px;
+  left: 29px;
+}
+.item-2__title {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 125%; /* 30/24 */
+  margin-bottom: 15px;
+}
+.item-2__description {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 15px;
+}
 .footer {
   background-color: #24263b;
 }

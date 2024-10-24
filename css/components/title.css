@@ -1,25 +1,25 @@
 .box-title {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 .box-title__label {
-  /* max-width: 153px;
-  width: 100%; */
+  font-size: 16px;
   width: auto;
   display: inline-block;
   background-color: #24263b;
   padding: 12px 14px;
   border-radius: 4px;
+  box-shadow: 0 0 24px 0 rgba(15,16,24,.42);
   font-weight: 600;
   text-align: center;
   line-height: 75%; /* 12/16 */
   letter-spacing: 2px;
 }
-/* .box-title__label:not(:last-child){
-    margin-bottom: 19px;
-} */
+
 .box-title__title {
   font-size: 36px;
   line-height: 133.333333%; /* 48/36 */
-  color: black;
   font-weight: 700;
 }
