@@ -571,8 +571,6 @@ body {
   }
 }
 
-
-
 /* SECTION CLIENT TESTIMONIALS */
 .section-client-testimonials {
   background-color: #24263b;
@@ -582,7 +580,7 @@ body {
 .testimonial {
 }
 
-.testimonial__title{
+.testimonial__title {
   gap: 2.4rem;
   margin-bottom: 4.9rem;
 }
@@ -591,17 +589,17 @@ body {
   gap: 2.4rem;
 }
 .testimonial__cart {
-  background-color: #1F2235;
+  background-color: #1f2235;
   padding: 4.1rem 4.5rem 2.9rem 4.2rem;
 }
 .testimonial__cart-text {
   display: flex;
   justify-content: space-between;
   max-width: 29rem;
-  border-bottom: 1px solid #E6E7E8 ;
+  border-bottom: 1px solid #e6e7e8;
   padding-bottom: 1.4rem;
 }
-.testimonial__text{
+.testimonial__text {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -613,14 +611,15 @@ body {
 }
 .testimonial__cart-label {
   font-size: 16px;
-  font-family: "Public Sans",sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 300;
   line-height: 150%; /* 24/16 */
 }
-.testimonial__cart-text-img{}
+.testimonial__cart-text-img {
+}
 .testimonial__cart-description {
   font-size: 1.6rem;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 162.5%; /* 26/16 */
   margin-top: 1.5rem;
@@ -634,7 +633,70 @@ body {
   height: 7rem;
   border: 2px solid #fe461c;
   border-radius: 50%;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
+}
+
+/* SECTION BLOG POST */
+
+.section-blog-posts {
+  background-color: #1f2235;
+  padding: 12rem 0;
+}
+.blog {
+}
+.blog__title {
+  gap: 2.2rem;
+  margin-bottom: 6.1rem;
+}
+.blog__carts {
+  display: flex;
+  gap: 2.4rem;
+}
+.blog__cart {
+}
+.blog__cart-img {
+  margin-bottom: 2.6rem;
+  width: 100%;
+}
+.blog__statistics {
+  display: flex;
+  margin-bottom: 2.3rem;
+  gap: 1.8rem;
+  height: 1.7rem;
+}
+.blog__statistics-icon {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+}
+.statistics-name {
+  line-height: 100%; /* 16/16 */
+  margin-top: 2px;
+}
+.statistics-message {
+  line-height: 75%; /* 12/16 */
+  margin-top: 2px;
+}
+.statistics-view {
+  line-height: 93.75%; /* 15/16 */
+  margin-top: 2px;
+}
+.blog__text {
+}
+.blog__text-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 125%; /* 30/24 */
+  margin-bottom: 1rem;
+}
+.blog__text-description {
+  font-size: 1.6rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%; /* 24/16 */
 }
 
 .footer {
