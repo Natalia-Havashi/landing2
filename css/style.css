@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  background-color: #24263b;
   font-family: "Outfit", sans-serif;
   color: #fff;
 }
@@ -787,7 +788,8 @@ body {
 }
 .contact__box {
   display: flex;
-  justify-content: space-between;
+  gap: 10rem;
+  /* justify-content: space-between; */
   margin-bottom: 8rem;
 }
 .contact__box-info {
@@ -830,6 +832,8 @@ body {
   line-height: 150%; /* 24/16 */
 }
 .contact__form-container {
+  max-width: 70rem;
+  width: 100%;
 }
 .contact__form-title {
   font-size: 2.4rem;
@@ -838,20 +842,48 @@ body {
   margin-bottom: 2.8rem;
 }
 .contact__form {
+  width: 100%;
 }
 .contact__form-inputs {
   display: flex;
   gap: 3rem;
   margin-bottom: 1.8rem;
+  height: 5.6rem;
+
+  color: #70717b;
+  font-size: 1.6rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
 }
 .contact__input-name {
-  height: 5.6rem;
+  padding-left: 2.9rem;
+  max-width: 33.5rem;
   width: 100%;
+  background-color: #24263b;
+  border: 1px solid #70717b;
+  border-radius: 8px;
 }
 .contact__input-email {
+  padding-left: 2.9rem;
+  max-width: 33.5rem;
+  width: 100%;
+  background-color: #24263b;
+  border: 1px solid #70717b;
+  border-radius: 8px;
 }
 .contact__textarea {
   margin-bottom: 4rem;
+  height: 21rem;
+  width: 100%;
+  background-color: #24263b;
+  border: 1px solid #70717b;
+  border-radius: 8px;
+  color: #70717b;
+  font-size: 1.6rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  padding-top: 1.5rem;
+  padding-left: 2.9rem;
 }
 .contact__btn {
   padding: 2.1rem 5rem 2rem 5rem;
@@ -868,16 +900,17 @@ body {
   }
 }
 
+/* SECTION FOOTER */
+
 .footer {
   background-color: #24263b;
   padding: 3.5rem 0;
 }
-.footer__container{
+.footer__container {
   display: flex;
   justify-content: center;
 }
-.footer__text{
+.footer__text {
   font-size: 1.6rem;
   font-weight: 400;
-
 }
